@@ -10,6 +10,6 @@ USER root
 
 EXPOSE 8080 50000
 
-COPY entrypoint.sh entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
